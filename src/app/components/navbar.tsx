@@ -17,7 +17,6 @@ export default function Navbar() {
               height={50}
               className="mr-4"
             />
-            {/* <img src="https://flowbite.com/docs/images/logo.svg" className="h-8 mr-3" alt="Flowbite Logo" /> */}
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Pedrero Window Cleaning</span>
           </a>
           <div className="flex items-center md:order-2">
