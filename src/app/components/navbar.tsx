@@ -17,7 +17,7 @@ export default function Navbar() {
               height={50}
               className="mr-4"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Pedrero Window Cleaning</span>
+            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Streakless Stars</span>
           </a>
           <div className="flex items-center md:order-2">
             <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
