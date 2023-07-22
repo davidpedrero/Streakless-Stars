@@ -2,28 +2,20 @@
 
 import Image from "next/image";
 import logo from '../../../public/logo.png';
-import title from '../../../public/title.png';
 import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 
 export default function Footer() {
   return (
 
     <footer className="bg-white shadow dark:bg-gray-900 w-full">
-      <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div className="w-full max-w-screen-xl mx-auto">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">
             <Image
               src={logo}
               alt="Logo"
-              width={50}
-              height={50}
-              className="mr-2 rounded-full"
-            />
-            <Image
-              src={title}
-              alt="Logo"
-              width={75}
-              height={75}
+              width={100}
+              height={100}
             />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">

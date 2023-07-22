@@ -2,29 +2,20 @@
 
 import Image from "next/image";
 import logo from '../../../public/logo.png';
-import title from '../../../public/title.png'
 import { FaUserCircle } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-5xl max-lg:text-3xl">
           <a href="https://flowbite.com/" className="flex items-center">
             <Image
               src={logo}
               alt="Logo"
-              width={75}
-              height={75}
-              className="mr-2 rounded-full"
+              width={200}
+              height={200}
             />
-            <Image
-              src={title}
-              alt="Logo"
-              width={125}
-              height={125}
-            />
-            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Streakless Stars</span> */}
           </a>
           <div className="flex items-center md:order-2">
             <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
