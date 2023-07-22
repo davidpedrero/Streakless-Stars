@@ -7,15 +7,15 @@ import { FaFacebook, FaTwitter, FaInstagram } from 'react-icons/fa';
 export default function Footer() {
   return (
 
-    <footer className="bg-white shadow dark:bg-gray-900 w-full">
+    <footer className="bg-white shadow dark:bg-gray-900 w-full p-8">
       <div className="w-full max-w-screen-xl mx-auto">
         <div className="sm:flex sm:items-center sm:justify-between">
           <a href="https://flowbite.com/" className="flex items-center mb-4 sm:mb-0">
             <Image
               src={logo}
               alt="Logo"
-              width={100}
-              height={100}
+              width={75}
+              height={75}
             />
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">

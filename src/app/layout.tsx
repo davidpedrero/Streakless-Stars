@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-gray-900`}>
         <div className='min-h-screen'>
           <Navbar />
-          <main className='h-screen'>
+          <main className='h-fit min-h-screen bg-blue-200'>
             {children}
           </main>
           <Footer />
