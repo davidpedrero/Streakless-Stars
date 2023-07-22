@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import logo from '../../../public/logo.svg';
+import logo from '../../../public/logo.png';
+import title from '../../../public/title.png'
 import { FaUserCircle } from 'react-icons/fa';
 
 export default function Navbar() {
@@ -13,11 +14,17 @@ export default function Navbar() {
             <Image
               src={logo}
               alt="Logo"
-              width={50}
-              height={50}
-              className="mr-4"
+              width={75}
+              height={75}
+              className="mr-2 rounded-full"
             />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Streakless Stars</span>
+            <Image
+              src={title}
+              alt="Logo"
+              width={125}
+              height={125}
+            />
+            {/* <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Streakless Stars</span> */}
           </a>
           <div className="flex items-center md:order-2">
             <button type="button" className="flex mr-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" id="user-menu-button" aria-expanded="false" data-dropdown-toggle="user-dropdown" data-dropdown-placement="bottom">
