@@ -11,6 +11,12 @@ export default function Navbar() {
 
   const currentRoute = usePathname();
 
+  const linkStyles = 'block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500';
+
+  const activeStyle = linkStyles + ' md:text-blue-700 md:dark:text-blue-500';
+
+  const nonActiveStlye = linkStyles + ' dark:text-white';
+
   return (
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 w-screen sticky top-0">
@@ -59,20 +65,20 @@ export default function Navbar() {
           <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-user">
             <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
               <li>
-                <Link href="/" className={`block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500 ${currentRoute === '/' ? "md:text-blue-700 md:dark:text-blue-500" : "dark:text-white"}`} aria-current="page">Home
+                <Link href="/" className={currentRoute === "/" ? activeStyle : nonActiveStlye} aria-current="page">Home
                 </Link>
               </li>
               <li>
-                <Link href="/about" className={`block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500 ${currentRoute === '/about' ? "md:text-blue-700 md:dark:text-blue-500" : "dark:text-white"}`}>About</Link>
+                <Link href="/about" className={currentRoute === "/about" ? activeStyle : nonActiveStlye}>About</Link>
               </li>
               <li>
-                <Link href="/pricing" className={`block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500 ${currentRoute === '/pricing' ? "md:text-blue-700 md:dark:text-blue-500" : "dark:text-white"}`}>Pricing</Link>
+                <Link href="/pricing" className={currentRoute === "/pricing" ? activeStyle : nonActiveStlye}>Pricing</Link>
               </li>
               <li>
-                <Link href="/book" className={`block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500 ${currentRoute === '/book' ? "md:text-blue-700 md:dark:text-blue-500" : "dark:text-white"}`}>Book</Link>
+                <Link href="/book" className={currentRoute === "/book" ? activeStyle : nonActiveStlye}>Book</Link>
               </li>
               <li>
-                <Link href="/contact" className={`block py-2 pl-3 pr-4 rounded text-white bg-blue-700 md:bg-transparent md:p-0 md:hover:text-blue-700 md:dark:hover:text-blue-500 ${currentRoute === '/contact' ? "md:text-blue-700 md:dark:text-blue-500" : "dark:text-white"}`}>Contact</Link>
+                <Link href="/contact" className={currentRoute === "/contact" ? activeStyle : nonActiveStlye}>Contact</Link>
               </li>
             </ul>
           </div>

@@ -1,4 +1,4 @@
-export default function Contact() {
+export default function Book() {
   return (
     <>
       <div className='bg-blue-200 flex h-1/2 align-middle justify-center'>
