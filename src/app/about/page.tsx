@@ -7,7 +7,7 @@ export default function About() {
           <div className='text-left pb-8'>
             <h2 className="text-2xl pb-1">
               <strong>
-                NYC Window Cleaning - About Steakless Stars
+                NYC Window Cleaning - Steakless Stars
               </strong>
             </h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, veritatis? Recusandae fugit nobis natus dolores nisi molestiae, exercitationem, sint doloremque dolor inventore voluptatem fugiat sapiente dolore beatae cumque totam, asperiores distinctio obcaecati pariatur quam harum ipsum adipisci ab! Autem accusamus quam cumque. Accusamus quod iste atque hic beatae velit odio eligendi, perferendis vitae? Magni, eaque ad quibusdam, voluptatum nihil repellendus delectus doloremque aspernatur, soluta modi sit deleniti? Neque corrupti quaerat ipsum nemo nulla culpa asperiores, dignissimos exercitationem delectus in nam nisi, commodi repudiandae enim consequuntur optio mollitia dolor. Voluptas, fugiat labore quia perspiciatis cumque debitis similique atque! Eos reiciendis officiis quas voluptatibus aut voluptas placeat ratione inventore dignissimos odit aliquam suscipit sint laboriosam asperiores quibusdam, reprehenderit adipisci quo rerum accusantium tempore sequi nisi maiores magni ipsa. Ab adipisci corrupti illum iste labore, possimus soluta, molestias eum expedita voluptatibus minima fugit. Fuga blanditiis commodi corrupti quo in, perspiciatis veniam sit suscipit!</p>
