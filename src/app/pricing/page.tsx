@@ -11,8 +11,8 @@ export default function Pricing() {
   return (
     <>
       <div className='bg-blue-200 flex h-1/2 align-middle justify-center'>
-        <div className='text-center w-1/2'>
-          <h2 className='p-8 text-5xl'>Pricing</h2>
+        <div className='text-center w-1/2 text-blue-950'>
+          <h2 className='p-8 text-5xl '>Pricing</h2>
           <div className='text-left pb-8'>
             <p className="mb-4 text-2xl">The price depends on different factors, like:</p>
             <ul className="list-disc pl-8 text-2xl">

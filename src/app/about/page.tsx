@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <>
-      <div className='bg-blue-200 flex h-1/2 align-middle justify-center'>
+      <div className='bg-blue-200 flex h-1/2 align-middle justify-center text-blue-950'>
         <div className='text-center w-1/2'>
           <h2 className='p-8 text-5xl'>About Us</h2>
           <div className='text-left pb-8'>
