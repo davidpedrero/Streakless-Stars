@@ -1,40 +1,38 @@
+import Image from "next/image";
+import contact from '../../../public/contact.png';
+import { FiPhoneCall } from 'react-icons/fi';
+import { AiOutlineClockCircle } from 'react-icons/ai';
+import { MdOutlineEmail, MdOutlineLocationOn } from 'react-icons/md';
+
 export default function Contact() {
   return (
     <>
-      <div className='bg-blue-200 flex h-1/2 align-middle justify-center'>
-        <div className='text-center w-1/2'>
-          <h2 className='p-8 text-5xl'>About Us</h2>
-          <div className='text-left pb-8'>
-            <h2 className="text-2xl pb-1">
-              <strong>
-                NYC Window Cleaning - Steakless Stars
-              </strong>
-            </h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, veritatis? Recusandae fugit nobis natus dolores nisi molestiae, exercitationem, sint doloremque dolor inventore voluptatem fugiat sapiente dolore beatae cumque totam, asperiores distinctio obcaecati pariatur quam harum ipsum adipisci ab! Autem accusamus quam cumque. Accusamus quod iste atque hic beatae velit odio eligendi, perferendis vitae? Magni, eaque ad quibusdam, voluptatum nihil repellendus delectus doloremque aspernatur, soluta modi sit deleniti? Neque corrupti quaerat ipsum nemo nulla culpa asperiores, dignissimos exercitationem delectus in nam nisi, commodi repudiandae enim consequuntur optio mollitia dolor. Voluptas, fugiat labore quia perspiciatis cumque debitis similique atque! Eos reiciendis officiis quas voluptatibus aut voluptas placeat ratione inventore dignissimos odit aliquam suscipit sint laboriosam asperiores quibusdam, reprehenderit adipisci quo rerum accusantium tempore sequi nisi maiores magni ipsa. Ab adipisci corrupti illum iste labore, possimus soluta, molestias eum expedita voluptatibus minima fugit. Fuga blanditiis commodi corrupti quo in, perspiciatis veniam sit suscipit!</p>
+      <div className='bg-blue-200 flex align-middle justify-center'>
+        <div className='text-center w-1/2 text-blue-950'>
+          <h2 className='p-8 text-5xl'>Contact Us</h2>
+          <div className="flex text-left mb-8">
+            <p>
+              Looking to make your windows sparkle? You’re in the right place! Streakless Stars is dedicated to providing you with a fantastic experience and spotless windows. If you’re interested in our services but need more information, don’t hesitate! Simply fill out our online form with your queries, and we’ll get back to you with all the details you need. You can ask us about our window cleaning or exterior maintenance services, scheduling, pricing, or anything else you’re curious about. We’re here to help and can’t wait to bring a shine to your home!
+            </p>
+            <form className="ml-8">
+              <label htmlFor="name">Your name</label>
+              <input id="name" className="mb-4" />
+              <label htmlFor="email">Your email</label>
+              <input id="enail" className="mb-4" />
+              <label htmlFor="message">Your message (optional)</label>
+              <textarea id="message" />
+              <input type="submit" className="bg-blue-600 text-white p-2 rounded-md mt-4 cursor-pointer" />
+            </form>
           </div>
-          <div className='text-left pb-8'>
-            <h2 className="text-2xl pb-1">
-              <strong>
-                Window Cleaning – Quality
-              </strong>
-            </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum officiis illo quidem ea unde dolores nihil ratione pariatur asperiores dolorem impedit excepturi delectus sunt ad odio laborum obcaecati earum voluptatem perferendis, voluptatum nulla quam quo, dignissimos ducimus? Quidem, eaque sed maiores itaque unde ab fuga dolore, aliquam, sint facilis ratione porro inventore consectetur aspernatur eum ipsam minima nisi! Cumque soluta velit necessitatibus tenetur, eveniet quas libero, nisi quam expedita eos mollitia incidunt molestias ipsum optio laboriosam rem repellat eius inventore dolore temporibus! Iste, consequuntur cum? Harum, deserunt! Nemo, voluptatem cum perferendis sunt eveniet odio obcaecati deleniti fuga, esse atque enim incidunt unde dolores nihil? Aliquid illo placeat ducimus quisquam quasi. Quae, aspernatur a blanditiis eveniet explicabo modi fugiat neque tempora nostrum hic nemo aliquam fuga recusandae, ullam numquam dolore. Ad veniam reprehenderit, obcaecati perferendis quo voluptas facilis ducimus fuga amet id voluptates corporis, totam necessitatibus error fugit sit explicabo eius?</p>
-          </div>
-          <div className='text-left pb-8'>
-            <h2 className="text-2xl pb-1">
-              <strong>
-                Additional Services
-              </strong>
-            </h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo adipisci illum veritatis quae aperiam quasi sapiente error itaque esse nemo, officiis, aut dolor obcaecati tempore magnam mollitia laboriosam quos quo hic at placeat ullam aspernatur blanditiis? Ratione repellat deserunt corporis sit quidem adipisci dignissimos eius itaque excepturi saepe distinctio facere, ducimus fugit minus corrupti odit reprehenderit officia libero obcaecati, aut nam? Neque reiciendis, deserunt nostrum reprehenderit, voluptates iusto architecto tempora obcaecati soluta corporis minus voluptate earum aspernatur ut laborum, mollitia maxime ea error iste consequuntur? Dignissimos nostrum ipsam, vero commodi, ut sint aspernatur error inventore ad impedit fugit, repellendus nemo!</p>
-          </div>
-          <div className='text-left pb-8'>
-            <h2 className="text-2xl pb-1">
-              <strong>
-                Customer Service
-              </strong>
-            </h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus aliquam sapiente quaerat! Inventore, magni? Nisi, tempore sint. Repellendus omnis cumque voluptatibus natus dolore quidem voluptas modi ab quasi expedita, nesciunt voluptatum quisquam quo quis minima a voluptate. Soluta porro culpa sint quo deserunt nobis, vitae ea ipsa blanditiis saepe. Debitis, omnis officia! Asperiores illo, id nulla iusto eum deleniti eos ducimus quam optio cum? Eum, laborum nisi. In enim possimus reprehenderit! Expedita, quis nisi! Iure incidunt rem sequi fugiat nostrum non porro, quos pariatur excepturi. In, illo distinctio cumque ipsam dolor nesciunt. Assumenda impedit sapiente culpa modi non consequuntur temporibus.</p>
+          <Image
+            src={contact}
+            alt="Contact Pic"
+          />
+          <div className="text-3xl text-left mt-8 mb-8">
+            <h4 className="mb-4"><MdOutlineLocationOn className="inline mr-4" /> 1405 71st 14th ave, Brooklyn, NY 11228</h4>
+            <h4 className="mb-4"><FiPhoneCall className="inline mr-4" /> 347-622-3789</h4>
+            <h4 className="mb-4"><MdOutlineEmail className="inline mr-4" /> hello@streaklessStars.com</h4>
+            <h4 className="mb-4"><AiOutlineClockCircle className="inline mr-4" /> Mon - Fri: 9:00 AM - 6:00 PM</h4>
           </div>
         </div>
       </div>
