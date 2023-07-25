@@ -24,71 +24,71 @@ export default function Pricing() {
             </ul>
             <p className="mt-4 text-2xl">Below you can see examples of prices for regular cleaning of standard-sized windows. Please note, that all services are subject to a minimum charge of $100.00 + tax:</p>
           </div>
-        </div>
-      </div>
-      <div className="flex h-1/2 align-middle justify-center pb-8">
-        <div className='flex align-middle justify-center text-center'>
-          <div className='flex justify-center'>
-            <div className='bg-slate-900 grid grid-cols-2 text-fuchsia-50 text-4xl max-sm:text-xs max-md:text-sm max-lg:text-base'>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={doubleHung}
-                  alt="Double Hung Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">Double-Hung Window</h4>
-                <small className="text-slate-500 text-2xl">$15 - $25</small>
-              </div>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={halfMultiPane}
-                  alt="Half Multi-Pane Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">Half Multi-Pane Window</h4>
-                <small className="text-slate-500 text-2xl">$18 - $27</small>
-              </div>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={multiPane}
-                  alt="Doublt Hung Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">Multi-Pane Window</h4>
-                <small className="text-slate-500 text-2xl">$22 - $32</small>
-              </div>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={casement}
-                  alt="Casement Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">Casement Window</h4>
-                <small className="text-slate-500 text-2xl">$10 - $20</small>
-              </div>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={twoPanelCasement}
-                  alt="2-Panel Casement Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">2-Panel Casement Window</h4>
-                <small className="text-slate-500 text-2xl">$20 - $35</small>
-              </div>
-              <div className='border-solid border-2 p-16'>
-                <Image className="mr-auto ml-auto mb-8"
-                  src={threePanelCasement}
-                  alt="3-Panel Casement Window Pic"
-                  width={150}
-                  height={150}
-                />
-                <h4 className="mb-1 text-3xl">3-Panel Casement Window</h4>
-                <small className="text-slate-500 text-2xl">$30 - $45</small>
+          <div className="flexalign-middle justify-center pb-8">
+            <div className='flex align-middle justify-center text-center'>
+              <div className='flex justify-center'>
+                <div className='bg-slate-900 grid grid-cols-2 text-fuchsia-50 text-4xl  max-sm:text-xs max-md:text-sm'>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={doubleHung}
+                      alt="Double Hung Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">Double-Hung Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$15 - $25</small>
+                  </div>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={halfMultiPane}
+                      alt="Half Multi-Pane Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">Half Multi-Pane Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$18 - $27</small>
+                  </div>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={multiPane}
+                      alt="Doublt Hung Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">Multi-Pane Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$22 - $32</small>
+                  </div>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={casement}
+                      alt="Casement Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">Casement Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$10 - $20</small>
+                  </div>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={twoPanelCasement}
+                      alt="2-Panel Casement Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">2-Panel Casement Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$20 - $35</small>
+                  </div>
+                  <div className='border-solid border-2 p-16'>
+                    <Image className="mr-auto ml-auto mb-8"
+                      src={threePanelCasement}
+                      alt="3-Panel Casement Window Pic"
+                      width={150}
+                      height={150}
+                    />
+                    <h4 className="mb-1 max-lg:text-2xl">3-Panel Casement Window</h4>
+                    <small className="text-slate-500 text-2xl max-md:text-xl">$30 - $45</small>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
