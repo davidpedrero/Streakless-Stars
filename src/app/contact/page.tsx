@@ -17,10 +17,13 @@ export default function Contact() {
             <h4 className="mb-4"><MdOutlineEmail className="inline mr-4" /> hello@streaklessStars.com</h4>
             <h4><AiOutlineClockCircle className="inline mr-4" /> Mon - Fri: 9:00 AM - 6:00 PM</h4>
           </div>
-          <Image className="mb-8"
-            src={contact}
-            alt="Contact Pic"
-          />
+          <div className="relative h-[35vw] mb-12">
+            <Image className="mb-8"
+              src={contact}
+              alt="Contact Pic"
+              fill={true}
+            />
+          </div>
           <div className="flex text-left mb-8 text-xl">
             <p className="w-1/2 mr-8">
               Looking to make your windows sparkle? You’re in the right place! Streakless Stars is dedicated to providing you with a fantastic experience and spotless windows. If you’re interested in our services but need more information, don’t hesitate! Simply fill out our online form with your queries, and we’ll get back to you with all the details you need. You can ask us about our window cleaning or exterior maintenance services, scheduling, pricing, or anything else you’re curious about. We’re here to help and can’t wait to bring a shine to your home!
