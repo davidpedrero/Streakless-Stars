@@ -28,14 +28,14 @@ export default function BookForm() {
       </div>
       <div className="mb-10 font-medium text-gray-900 dark:text-white">
         <p className="mb-2 text-2xl">Type of service</p>
-        <div className="grid grid-cols-2 max-md:grid-cols-1 w-full text-left">
-          <div>
-            <input type="radio" id="residential" name="serviceType" required />
-            <label htmlFor="residential" className="ml-4">Residential</label>
-          </div>
+        <div className="grid grid-cols-2 max-md:grid-cols-1 w-1/2 text-left">
           <div>
             <input type="radio" id="commercial" name="serviceType" required />
             <label htmlFor="commercial" className="ml-4">Commercial</label>
+          </div>
+          <div>
+            <input type="radio" id="residential" name="serviceType" required />
+            <label htmlFor="residential" className="ml-4">Residential</label>
           </div>
         </div>
       </div>
