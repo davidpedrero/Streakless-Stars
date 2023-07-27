@@ -22,6 +22,8 @@ export default function Contact() {
               src={contact}
               alt="Contact Pic"
               fill={true}
+              sizes="50vw"
+              priority={true}
             />
           </div>
           <div className="flex text-left mb-8 text-xl">
