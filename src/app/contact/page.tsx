@@ -25,7 +25,7 @@ export default function Contact() {
             <p className="w-1/2 mr-8">
               Looking to make your windows sparkle? You’re in the right place! Streakless Stars is dedicated to providing you with a fantastic experience and spotless windows. If you’re interested in our services but need more information, don’t hesitate! Simply fill out our online form with your queries, and we’ll get back to you with all the details you need. You can ask us about our window cleaning or exterior maintenance services, scheduling, pricing, or anything else you’re curious about. We’re here to help and can’t wait to bring a shine to your home!
             </p>
-            <div className="bg-gray-900 p-12 text-left rounded-xl w-1/2 h-fit">
+            <div className="bg-gray-900 p-8 text-left rounded-xl w-1/2 h-fit">
               <ContactForm />
             </div>
           </div>

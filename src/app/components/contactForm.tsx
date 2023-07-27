@@ -4,7 +4,7 @@ export default function ContactForm() {
   return (
     <form>
       <div className="mb-4 relative text-center">
-        <h2 className="text-white text-2xl">Get in touch!</h2>
+        <h2 className="text-white text-2xl">Get in Touch!</h2>
       </div>
       <div className="mb-4">
         <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>
