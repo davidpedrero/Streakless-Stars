@@ -5,7 +5,7 @@ export default function Home() {
     <>
       <Hero />
       <div className='bg-blue-200 h-1/2 text-center'>
-        <h2 className='p-12 text-center text-5xl text-blue-950'>Why Choose us?</h2>
+        <h2 className='p-12 text-center text-5xl text-blue-950'>Why Choose Us?</h2>
         <div className="flex align-middle justify-center pb-8">
           <div className='flex align-middle justify-center text-center w-1/2'>
             <div className='flex justify-center'>
