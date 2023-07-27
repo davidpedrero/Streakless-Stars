@@ -7,27 +7,27 @@ export default function BookForm() {
         <h2>Book Now!</h2>
       </div>
       <div className="mb-10">
-        <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your name</label>
+        <label htmlFor="name" className="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Your name</label>
         <input type="text" id="name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
       </div>
       <div className="mb-10">
-        <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+        <label htmlFor="email" className="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Your email</label>
         <input type="email" id="email" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
       </div>
       <div className="mb-10">
-        <label htmlFor="address" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your address</label>
+        <label htmlFor="address" className="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Your address</label>
         <input type="text" id="address" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
       </div>
       <div className="mb-10">
-        <label htmlFor="date" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Appointment Date</label>
+        <label htmlFor="date" className="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Appointment Date</label>
         <input type="date" id="date" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
       </div>
       <div className="mb-10">
-        <label htmlFor="time" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Appointment Time</label>
+        <label htmlFor="time" className="block mb-2 text-2xl font-medium text-gray-900 dark:text-white">Appointment Time</label>
         <input type="time" id="time" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required />
       </div>
       <div className="mb-10 font-medium text-gray-900 dark:text-white">
-        <p className="mb-2">Type of service</p>
+        <p className="mb-2 text-2xl">Type of service</p>
         <div className="grid grid-cols-2 max-md:grid-cols-1 w-full text-left">
           <div>
             <input type="radio" id="residential" name="serviceType" required />
