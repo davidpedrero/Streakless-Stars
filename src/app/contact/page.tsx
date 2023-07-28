@@ -23,7 +23,7 @@ export default function Contact() {
               alt="Contact Pic"
               fill={true}
               sizes="50vw"
-              priority={true}
+              placeholder="blur"
             />
           </div>
           <div className="flex text-left mb-8 text-xl">

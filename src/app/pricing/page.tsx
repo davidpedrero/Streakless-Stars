@@ -34,6 +34,7 @@ export default function Pricing() {
                       alt="Double Hung Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">Double-Hung Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$15 - $25</small>
@@ -44,6 +45,7 @@ export default function Pricing() {
                       alt="Half Multi-Pane Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">Half Multi-Pane Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$18 - $27</small>
@@ -54,6 +56,7 @@ export default function Pricing() {
                       alt="Doublt Hung Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">Multi-Pane Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$22 - $32</small>
@@ -64,6 +67,7 @@ export default function Pricing() {
                       alt="Casement Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">Casement Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$10 - $20</small>
@@ -74,6 +78,7 @@ export default function Pricing() {
                       alt="2-Panel Casement Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">2-Panel Casement Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$20 - $35</small>
@@ -84,6 +89,7 @@ export default function Pricing() {
                       alt="3-Panel Casement Window Pic"
                       width={150}
                       height={150}
+                      style={{ width: 'auto', height: 'auto' }}
                     />
                     <h4 className="mb-1 max-lg:text-2xl">3-Panel Casement Window</h4>
                     <small className="text-slate-500 text-2xl max-md:text-xl">$30 - $45</small>

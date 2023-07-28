@@ -21,12 +21,14 @@ export default function Navbar() {
     <>
       <nav className="bg-white border-gray-200 dark:bg-gray-900 w-screen sticky top-0 z-10">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 text-4xl max-lg:text-3xl">
-          <a href="https://flowbite.com/" className="flex items-center">
+          <a href="/" className="flex items-center">
             <Image
               src={logo}
               alt="Logo"
-              width={150}
-              height={150}
+              width={125}
+              height={125}
+              priority={true}
+              style={{ width: 'auto', height: 'auto' }}
             />
           </a>
           <div className="flex items-center md:order-2">

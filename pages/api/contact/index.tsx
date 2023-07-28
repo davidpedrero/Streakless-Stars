@@ -10,6 +10,7 @@ export default function handler(req: any, res: any) {
     case 'POST':
       res.status(200).json({ response: "POST Success" });
       // Handle contact form submission request here
+      console.log(req.body);
       break;
 
     default:
