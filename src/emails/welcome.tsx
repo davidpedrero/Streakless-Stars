@@ -7,21 +7,22 @@ import {
 } from '@react-email/components';
 import * as React from 'react';
 
-interface NotionMagicLinkEmailProps {
-  loginCode?: string;
+interface WelcomeEmailProps {
+  name: string
 }
 
 const baseUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
   : '';
 
-export const NotionMagicLinkEmail = ({
-  loginCode = 'sparo-ndigo-amurt-secan',
-}: NotionMagicLinkEmailProps) => (
+export const WelcomeEmail = ({ name }: WelcomeEmailProps) => (
   <Html>
     <Body style={main}>
       <Container style={container}>
         <Heading style={h1}>Welcome to Streakless Stars!</Heading>
+        <Text style={{ ...text, marginBottom: '14px' }}>
+          Hi {name},
+        </Text>
         <Text style={{ ...text, marginBottom: '14px' }}>
           Thank you for contacting us.
         </Text>
@@ -51,7 +52,7 @@ export const NotionMagicLinkEmail = ({
   </Html>
 );
 
-export default NotionMagicLinkEmail;
+export default WelcomeEmail;
 
 const main = {
   backgroundColor: '#ffffff',
