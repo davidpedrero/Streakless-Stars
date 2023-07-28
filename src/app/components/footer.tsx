@@ -21,22 +21,22 @@ export default function Footer() {
           </a>
           <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">Terms & Conditions</a>
+              <a href="https://drive.google.com/file/d/1sWbVrFPo7F-gDubX1HXFk-zasTiXSRrn/view?usp=sharing" target="_blank" className="mr-4 hover:underline md:mr-6 ">Terms & Conditions</a>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
+              <a href="https://drive.google.com/file/d/141WBDQTZm7puPx8xHdw0fJMoX5Teg4gV/view?usp=sharing" target="_blank" className="mr-4 hover:underline md:mr-6">Privacy Policy</a>
             </li>
             <li>
-              <a href="#" className="mr-4 hover:underline md:mr-6 ">FAQ</a>
+              <a href="https://drive.google.com/file/d/1pxh0vSh5ONQIiDbwmJ85vTIP0vHajQ4o/view?usp=sharing" target="_blank" className="mr-4 hover:underline md:mr-6 ">FAQ</a>
             </li>
             <li className="align-middle">
-              <a href="#" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaFacebook /></a>
+              <a href="https://www.facebook.com/" target="_blank" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaFacebook /></a>
             </li>
             <li>
-              <a href="#" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaInstagram /></a>
+              <a href="https://www.instagram.com/" target="_blank" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaInstagram /></a>
             </li>
             <li>
-              <a href="#" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaTwitter /></a>
+              <a href="https://www.twitter.com/" target="_blank" className="mr-2 hover:underline md:mr-4 flex align-middle"><FaTwitter /></a>
             </li>
           </ul>
         </div>

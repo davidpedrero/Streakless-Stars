@@ -19,7 +19,6 @@ export const WelcomeEmail = ({ name }: WelcomeEmailProps) => (
   <Html>
     <Body style={main}>
       <Container style={container}>
-        <Heading style={h1}>Welcome to Streakless Stars!</Heading>
         <Text style={{ ...text, marginBottom: '14px' }}>
           Hi {name},
         </Text>
