@@ -21,7 +21,7 @@ export default function ContactForm() {
       body: JSON.stringify(formData)
     })
 
-    const data = response.json();
+    const data = await response.json();
     console.log(data);
   }
 
