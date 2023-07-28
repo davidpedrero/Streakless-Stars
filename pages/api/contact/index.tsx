@@ -2,9 +2,10 @@ import { Resend } from 'resend';
 import WelcomeEmail from '@/emails/welcome';
 import ContactEmail from '@/emails/contact';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+const resend = new Resend("re_jFGHA8CR_F1e2yTiykvHGwDfYQ2acuSjp");
+// const resend = new Resend(process.env.RESEND_API_KEY);
 
-export async function handler(req: any, res: any) {
+export default function handler(req: any, res: any) {
   const { method } = req;
   console.log(method);
 
@@ -14,8 +15,6 @@ export async function handler(req: any, res: any) {
       break;
 
     case 'POST':
-      res.status(200).json({ response: "POST Success" });
-
       console.log(req.body);
 
       const { name, email, message } = req.body;
@@ -25,7 +24,7 @@ export async function handler(req: any, res: any) {
       console.log(message)
 
       resend.sendEmail({
-        from: 'oboarding.resend.dev',
+        from: 'oboarding@resend.dev',
         to: email,
         subject: 'Welcome',
         react: WelcomeEmail({
@@ -33,16 +32,18 @@ export async function handler(req: any, res: any) {
         }),
       });
 
-      resend.sendEmail({
-        from: 'oboarding.resend.dev',
-        to: 'pedrero888@gmail.com',
-        subject: 'Customer Inquiry',
-        react: ContactEmail({
-          name: name,
-          email: email,
-          message: message
-        }),
-      });
+      // resend.sendEmail({
+      //   from: 'oboarding.resend.dev',
+      //   to: 'pedrero888@gmail.com',
+      //   subject: 'Customer Inquiry',
+      //   react: ContactEmail({
+      //     name: name,
+      //     email: email,
+      //     message: message
+      //   }),
+      // });
+
+      res.status(200).json({ response: "POST Success" });
 
       break;
 
