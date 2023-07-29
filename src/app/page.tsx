@@ -12,7 +12,7 @@ export default function Home() {
               <div className='bg-slate-900 grid grid-cols-2 text-fuchsia-50 text-4xl  max-sm:text-xs max-md:text-sm'>
                 <div className='border-solid border-2 p-16'>
                   <h4 className="mb-1 max-lg:text-2xl">Cost</h4>
-                  <small className="text-slate-500 text-2xl max-md:text-xl">Excellent window cleaning service for an affordable price is not a myth - it exists at Empire.</small>
+                  <small className="text-slate-500 text-2xl max-md:text-xl">Excellent window cleaning service for an affordable price is not a myth - it exists at Streakless Stars.</small>
                 </div>
                 <div className='border-solid border-2 p-16'>
                   <h4 className="mb-1 max-lg:text-2xl">Quality</h4>
